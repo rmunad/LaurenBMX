@@ -1,4 +1,4 @@
 applications:
-  - name: LaurenBMX
+    name: LaurenBMX
     memory: 128M
   buildpack: sdk-for-nodejs
