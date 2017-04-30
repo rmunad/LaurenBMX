@@ -1,4 +1,5 @@
 applications:
-- name: node-hello-world
-  memory: 128M
-  buildpack: sdk-for-nodejs
+- name: LaurenBMX
+  memory: 64M
+  host: LaurenBMX
+  domain: mybluemix.net
