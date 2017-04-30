@@ -1,4 +1,4 @@
 applications:
-- host: llljava-${random-word}
-  path: lll.war
-  mem: 512M
+  - name: LaurenBMX
+    memory: 128M
+  buildpack: sdk-for-nodejs
