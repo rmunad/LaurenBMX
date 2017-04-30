@@ -1,5 +1,8 @@
 applications:
-- name: LaurenBMX
-  memory: 64M
-  host: LaurenBMX
+- path: .
+  memory: 256M
+  instances: 1
   domain: mybluemix.net
+  name: LaurenBMX
+  host: LaurenBMX
+  disk_quota: 1024M
